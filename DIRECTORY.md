@@ -2,6 +2,9 @@
 ## Ciphers
   * [Caesarcipher](https://github.com/TheAlgorithms/Go/blob/master/ciphers/CaesarCipher.go)
 
+## Common
+  * [Basic Function](https://github.com/TheAlgorithms/Go/blob/master/common/basic_function.go)
+
 ## Data-Structures
   * Binary-Tree
     * [Binary-Search-Tree](https://github.com/TheAlgorithms/Go/blob/master/data-structures/binary-tree/binary-search-tree.go)
@@ -20,6 +23,11 @@
   * [Longest-Palindromic-Subsequence](https://github.com/TheAlgorithms/Go/blob/master/dynamic-programming/longest-palindromic-subsequence.go)
   * [Matrix-Multiplication](https://github.com/TheAlgorithms/Go/blob/master/dynamic-programming/matrix-multiplication.go)
   * [Rod-Cutting](https://github.com/TheAlgorithms/Go/blob/master/dynamic-programming/rod-cutting.go)
+
+## Negroni
+  * [Common](https://github.com/TheAlgorithms/Go/blob/master/negroni/common.go)
+  * [First Test](https://github.com/TheAlgorithms/Go/blob/master/negroni/first_test.go)
+  * [Type Test](https://github.com/TheAlgorithms/Go/blob/master/negroni/type_test.go)
 
 ## Other
   * [Maxsubarraysum](https://github.com/TheAlgorithms/Go/blob/master/other/maxSubarraySum.go)
