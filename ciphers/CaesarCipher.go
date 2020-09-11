@@ -17,7 +17,6 @@ func main() {
 	} else {
 		fmt.Println(caesarCipher(*input, *cipherKey))
 	}
-
 }
 
 func caesarCipher(input string, key int) string {

@@ -1,0 +1,4 @@
+github.com/douglasmakey/golang-algorithms- v0.0.0-20180429234644-0a5ef73a9fd5 h1:ae3ZNa8+Q3WVR6I/BdB+AatZrnZZpnyl6ZOWDmh96Jw=
+github.com/douglasmakey/golang-algorithms- v0.0.0-20180429234644-0a5ef73a9fd5/go.mod h1:DUocdLj6AeO5RUfLT9JPVhanSEihgqlwSlIfcEloUqY=
+github.com/urfave/negroni v1.0.0 h1:kIimOitoypq34K7TG7DUaJ9kq/N4Ofuwi1sjz0KipXc=
+github.com/urfave/negroni v1.0.0/go.mod h1:Meg73S6kFm/4PpbYdq35yYWoCZ9mS/YSx+lKnmiohz4=
