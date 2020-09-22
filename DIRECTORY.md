@@ -19,6 +19,10 @@
     * [Trie](https://github.com/TheAlgorithms/Go/blob/master/data-structures/trie/trie.go)
     * [Trie Test](https://github.com/TheAlgorithms/Go/blob/master/data-structures/trie/trie_test.go)
 
+## Db
+  * Mysql
+    * [Connect](https://github.com/TheAlgorithms/Go/blob/master/db/mysql/connect.go)
+
 ## Dynamic-Programming
   * [Longest-Palindromic-Subsequence](https://github.com/TheAlgorithms/Go/blob/master/dynamic-programming/longest-palindromic-subsequence.go)
   * [Matrix-Multiplication](https://github.com/TheAlgorithms/Go/blob/master/dynamic-programming/matrix-multiplication.go)
@@ -26,8 +30,6 @@
 
 ## Negroni
   * [Common](https://github.com/TheAlgorithms/Go/blob/master/negroni/common.go)
-  * [First Test](https://github.com/TheAlgorithms/Go/blob/master/negroni/first_test.go)
-  * [Type Test](https://github.com/TheAlgorithms/Go/blob/master/negroni/type_test.go)
 
 ## Other
   * [Maxsubarraysum](https://github.com/TheAlgorithms/Go/blob/master/other/maxSubarraySum.go)
@@ -55,3 +57,14 @@
 
 ## Strings
   * [Naivestringsearch](https://github.com/TheAlgorithms/Go/blob/master/strings/naiveStringSearch.go)
+
+## Test
+  * [Array Test](https://github.com/TheAlgorithms/Go/blob/master/test/array_test.go)
+  * [First Test](https://github.com/TheAlgorithms/Go/blob/master/test/first_test.go)
+  * [Function Test](https://github.com/TheAlgorithms/Go/blob/master/test/function_test.go)
+  * [Loop Test](https://github.com/TheAlgorithms/Go/blob/master/test/loop_test.go)
+  * [Map Ext Test](https://github.com/TheAlgorithms/Go/blob/master/test/map_ext_test.go)
+  * [Map Test](https://github.com/TheAlgorithms/Go/blob/master/test/map_test.go)
+  * [String Test](https://github.com/TheAlgorithms/Go/blob/master/test/string_test.go)
+  * [Type Test](https://github.com/TheAlgorithms/Go/blob/master/test/type_test.go)
+  * [Web Test](https://github.com/TheAlgorithms/Go/blob/master/test/web_test.go)
