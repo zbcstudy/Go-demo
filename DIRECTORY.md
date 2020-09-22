@@ -60,8 +60,11 @@
 
 ## Test
   * [Array Test](https://github.com/TheAlgorithms/Go/blob/master/test/array_test.go)
+  * [Encap Test](https://github.com/TheAlgorithms/Go/blob/master/test/encap_test.go)
+  * [Extension Test](https://github.com/TheAlgorithms/Go/blob/master/test/extension_test.go)
   * [First Test](https://github.com/TheAlgorithms/Go/blob/master/test/first_test.go)
   * [Function Test](https://github.com/TheAlgorithms/Go/blob/master/test/function_test.go)
+  * [Interface Test](https://github.com/TheAlgorithms/Go/blob/master/test/interface_test.go)
   * [Loop Test](https://github.com/TheAlgorithms/Go/blob/master/test/loop_test.go)
   * [Map Ext Test](https://github.com/TheAlgorithms/Go/blob/master/test/map_ext_test.go)
   * [Map Test](https://github.com/TheAlgorithms/Go/blob/master/test/map_test.go)
