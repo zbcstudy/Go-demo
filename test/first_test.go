@@ -1,4 +1,4 @@
-package main
+package test
 
 import (
 	"fmt"
@@ -10,8 +10,8 @@ func TestFirst(t *testing.T) {
 }
 
 func TestFibList(t *testing.T) {
-	var a int = 1
-	var b int = 1
+	var a = 1
+	var b = 1
 	fmt.Println(a)
 	for i := 0; i < 10; i++ {
 		fmt.Println(" ", b)
