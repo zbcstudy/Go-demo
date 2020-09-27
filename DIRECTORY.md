@@ -4,11 +4,12 @@
 
 ## Common
   * [Basic Function](https://github.com/TheAlgorithms/Go/blob/master/common/basic_function.go)
+  * [Captcha Test](https://github.com/TheAlgorithms/Go/blob/master/common/captcha_test.go)
 
 ## Data-Structures
-  * Binary-Tree
-    * [Binary-Search-Tree](https://github.com/TheAlgorithms/Go/blob/master/data-structures/binary-tree/binary-search-tree.go)
-    * [Binary-Tree](https://github.com/TheAlgorithms/Go/blob/master/data-structures/binary-tree/binary-tree.go)
+  * Binary Tree
+    * [Binary Search Tree](https://github.com/TheAlgorithms/Go/blob/master/data-structures/binary_tree/binary_search_tree.go)
+    * [Binary Tree](https://github.com/TheAlgorithms/Go/blob/master/data-structures/binary_tree/binary_tree.go)
   * Dynamic-Array
     * [Dynamic Array](https://github.com/TheAlgorithms/Go/blob/master/data-structures/dynamic-array/dynamic_array.go)
   * Linked-List
@@ -22,6 +23,8 @@
 ## Db
   * Mysql
     * [Connect](https://github.com/TheAlgorithms/Go/blob/master/db/mysql/connect.go)
+    * Sqlx
+      * [Sqlx Connect](https://github.com/TheAlgorithms/Go/blob/master/db/mysql/sqlx/sqlx_connect.go)
 
 ## Dynamic-Programming
   * [Longest-Palindromic-Subsequence](https://github.com/TheAlgorithms/Go/blob/master/dynamic-programming/longest-palindromic-subsequence.go)
@@ -60,6 +63,7 @@
 
 ## Test
   * [Array Test](https://github.com/TheAlgorithms/Go/blob/master/test/array_test.go)
+  * [Empty Interface Test](https://github.com/TheAlgorithms/Go/blob/master/test/empty_interface_test.go)
   * [Encap Test](https://github.com/TheAlgorithms/Go/blob/master/test/encap_test.go)
   * [Extension Test](https://github.com/TheAlgorithms/Go/blob/master/test/extension_test.go)
   * [First Test](https://github.com/TheAlgorithms/Go/blob/master/test/first_test.go)
