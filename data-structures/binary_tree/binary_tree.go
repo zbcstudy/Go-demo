@@ -1,6 +1,6 @@
 // basic binary tree and related operations
 
-package binarytree
+package main
 
 // package main
 
