@@ -23,6 +23,8 @@
 ## Db
   * Mysql
     * [Connect](https://github.com/TheAlgorithms/Go/blob/master/db/mysql/connect.go)
+    * Gorm
+      * [Gorm Connect](https://github.com/TheAlgorithms/Go/blob/master/db/mysql/gorm/gorm_connect.go)
     * Sqlx
       * [Sqlx Connect](https://github.com/TheAlgorithms/Go/blob/master/db/mysql/sqlx/sqlx_connect.go)
 
@@ -30,9 +32,6 @@
   * [Longest-Palindromic-Subsequence](https://github.com/TheAlgorithms/Go/blob/master/dynamic-programming/longest-palindromic-subsequence.go)
   * [Matrix-Multiplication](https://github.com/TheAlgorithms/Go/blob/master/dynamic-programming/matrix-multiplication.go)
   * [Rod-Cutting](https://github.com/TheAlgorithms/Go/blob/master/dynamic-programming/rod-cutting.go)
-
-## Negroni
-  * [Common](https://github.com/TheAlgorithms/Go/blob/master/negroni/common.go)
 
 ## Other
   * [Maxsubarraysum](https://github.com/TheAlgorithms/Go/blob/master/other/maxSubarraySum.go)
@@ -75,3 +74,7 @@
   * [String Test](https://github.com/TheAlgorithms/Go/blob/master/test/string_test.go)
   * [Type Test](https://github.com/TheAlgorithms/Go/blob/master/test/type_test.go)
   * [Web Test](https://github.com/TheAlgorithms/Go/blob/master/test/web_test.go)
+
+## Web
+  * Negroni
+    * [Common](https://github.com/TheAlgorithms/Go/blob/master/web/negroni/common.go)
