@@ -43,13 +43,18 @@ func query() {
 	var creater string
 	rows, _ := DB.Queryx("select id, content, creater from mt_text where id = ?", 22)
 	if rows.Next() {
-		rows.Scan(&id, &content, &creater)
-		err := rows.StructScan(text)
-		if err != nil {
-			fmt.Println("struct error:", err)
+		ex := rows.Scan(&id, &content, &creater)
+		if ex == nil {
+			err := rows.StructScan(text)
+			if err != nil {
+				fmt.Println("struct error:", err)
+			}
+			fmt.Println(id, content, creater)
+			fmt.Printf("%v", text)
+		} else {
+			fmt.Println("scan error")
 		}
-		fmt.Println(id, content, creater)
-		fmt.Printf("%v", text)
+
 	}
 	//fmt.Printf("id:%d content:%s created:%d\n", )
 }
