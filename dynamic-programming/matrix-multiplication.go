@@ -2,8 +2,7 @@
 // https://en.wikipedia.org/wiki/Matrix_chain_multiplication
 // www.geeksforgeeks.org/dynamic-programming-set-8-matrix-chain-multiplication/
 
-// package main
-package matrixChainMultiplication
+package main
 
 import "fmt"
 
@@ -52,10 +51,8 @@ func matrixChainDp(D []int) int {
 	return dp[1][N-1]
 }
 
-/*
 func main() {
 	D := []int{2, 2, 2, 2, 2} // 4 matrices
 	fmt.Print(matrixChainRec(D, 1, 4), "\n")
 	fmt.Print(matrixChainDp(D), "\n")
 }
-*/

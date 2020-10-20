@@ -27,5 +27,5 @@ func muxRouter() *mux.Router {
 }
 
 func firstHandler(writer http.ResponseWriter, request *http.Request) {
-	writer.Write([]byte("first route handler"))
+	_, _ = writer.Write([]byte("first route handler"))
 }

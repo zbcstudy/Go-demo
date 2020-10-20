@@ -1,9 +1,7 @@
 // longest palindromic subsequence
 // http://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/
 
-package longestPalindromicSubsequence
-
-// package main
+package main
 
 import "fmt"
 
@@ -55,11 +53,9 @@ func lpsDp(word string) int {
 	return dp[1][N-1]
 }
 
-/*
 func main() {
 	// word := "aaabbbbababbabbabbabf"
 	word := "aaaabbbba"
 	fmt.Printf("%d\n", lpsRec(word, 0, len(word)-1))
 	fmt.Printf("%d\n", lpsDp(word))
 }
-*/

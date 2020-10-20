@@ -2,13 +2,11 @@
 // https://en.wikipedia.org/wiki/Cutting_stock_problem
 // http://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/
 
-package dpRodCutting
-
-// package main
+package main
 
 import "fmt"
 
-func max(a, b int) int {
+func Max(a, b int) int {
 	if a > b {
 		return a
 	} else {
@@ -25,7 +23,7 @@ func cutRodRec(price []int, length int) int {
 
 	q := -1
 	for i := 1; i <= length; i++ {
-		q = max(q, price[i]+cutRodRec(price, length-i))
+		q = Max(q, price[i]+cutRodRec(price, length-i))
 	}
 	return q
 }
@@ -38,7 +36,7 @@ func cutRodDp(price []int, length int) int {
 	for j := 1; j <= length; j++ { // for each length (subproblem)
 		q := -1
 		for i := 1; i <= j; i++ {
-			q = max(q, price[i]+r[j-i]) // avoiding recursive call
+			q = Max(q, price[i]+r[j-i]) // avoiding recursive call
 		}
 		r[j] = q
 	}
@@ -46,7 +44,6 @@ func cutRodDp(price []int, length int) int {
 	return r[length]
 }
 
-/*
 func main() {
 	length := 10
 	price := []int{0, 1, 5, 8, 9, 17, 17, 17, 20, 24, 30}
@@ -57,4 +54,3 @@ func main() {
 	fmt.Print(cutRodRec(price, length), "\n")
 	fmt.Print(cutRodDp(price, length), "\n")
 }
-*/
