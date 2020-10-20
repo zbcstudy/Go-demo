@@ -62,11 +62,15 @@
 
 ## Test
   * [Array Test](https://github.com/TheAlgorithms/Go/blob/master/test/array_test.go)
+  * [Cancel Test](https://github.com/TheAlgorithms/Go/blob/master/test/cancel_test.go)
+  * [Channel Close Test](https://github.com/TheAlgorithms/Go/blob/master/test/channel_close_test.go)
+  * [Channel Test](https://github.com/TheAlgorithms/Go/blob/master/test/channel_test.go)
   * [Empty Interface Test](https://github.com/TheAlgorithms/Go/blob/master/test/empty_interface_test.go)
   * [Encap Test](https://github.com/TheAlgorithms/Go/blob/master/test/encap_test.go)
   * [Extension Test](https://github.com/TheAlgorithms/Go/blob/master/test/extension_test.go)
   * [First Test](https://github.com/TheAlgorithms/Go/blob/master/test/first_test.go)
   * [Function Test](https://github.com/TheAlgorithms/Go/blob/master/test/function_test.go)
+  * [Groutine Test](https://github.com/TheAlgorithms/Go/blob/master/test/groutine_test.go)
   * [Interface Test](https://github.com/TheAlgorithms/Go/blob/master/test/interface_test.go)
   * [Loop Test](https://github.com/TheAlgorithms/Go/blob/master/test/loop_test.go)
   * [Map Ext Test](https://github.com/TheAlgorithms/Go/blob/master/test/map_ext_test.go)
