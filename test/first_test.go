@@ -21,3 +21,15 @@ func TestFibList(t *testing.T) {
 	}
 
 }
+
+//指针测试
+//指针变量存的是一个地址
+func TestPointer(t *testing.T) {
+	var i = 10
+	//ptr是一个指针变量
+	var ptr = &i
+	fmt.Println(ptr)
+	//获取指针变量指向的值
+	fmt.Println(*ptr)
+	fmt.Println(&i)
+}
