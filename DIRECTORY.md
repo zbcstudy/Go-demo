@@ -62,11 +62,19 @@
 
 ## Test
   * [All Response Test](https://github.com/TheAlgorithms/Go/blob/master/test/all_response_test.go)
-  * [Array Test](https://github.com/TheAlgorithms/Go/blob/master/test/array_test.go)
   * [Cancel Test](https://github.com/TheAlgorithms/Go/blob/master/test/cancel_test.go)
   * [Channel Close Test](https://github.com/TheAlgorithms/Go/blob/master/test/channel_close_test.go)
   * [Channel Test](https://github.com/TheAlgorithms/Go/blob/master/test/channel_test.go)
   * [Context Test](https://github.com/TheAlgorithms/Go/blob/master/test/context_test.go)
+  * Data
+    * [Array Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/array_test.go)
+    * [Func Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/func_test.go)
+    * [Loop Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/loop_test.go)
+    * [Map Ext Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/map_ext_test.go)
+    * [Map Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/map_test.go)
+    * [Recursion Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/recursion_test.go)
+    * [String Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/string_test.go)
+    * [Type Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/type_test.go)
   * [Empty Interface Test](https://github.com/TheAlgorithms/Go/blob/master/test/empty_interface_test.go)
   * [Encap Test](https://github.com/TheAlgorithms/Go/blob/master/test/encap_test.go)
   * [Extension Test](https://github.com/TheAlgorithms/Go/blob/master/test/extension_test.go)
@@ -75,13 +83,8 @@
   * [Function Test](https://github.com/TheAlgorithms/Go/blob/master/test/function_test.go)
   * [Groutine Test](https://github.com/TheAlgorithms/Go/blob/master/test/groutine_test.go)
   * [Interface Test](https://github.com/TheAlgorithms/Go/blob/master/test/interface_test.go)
-  * [Loop Test](https://github.com/TheAlgorithms/Go/blob/master/test/loop_test.go)
-  * [Map Ext Test](https://github.com/TheAlgorithms/Go/blob/master/test/map_ext_test.go)
-  * [Map Test](https://github.com/TheAlgorithms/Go/blob/master/test/map_test.go)
   * [Pool Test](https://github.com/TheAlgorithms/Go/blob/master/test/pool_test.go)
   * [Singleton Test](https://github.com/TheAlgorithms/Go/blob/master/test/singleton_test.go)
-  * [String Test](https://github.com/TheAlgorithms/Go/blob/master/test/string_test.go)
-  * [Type Test](https://github.com/TheAlgorithms/Go/blob/master/test/type_test.go)
   * [Web Test](https://github.com/TheAlgorithms/Go/blob/master/test/web_test.go)
 
 ## Web
