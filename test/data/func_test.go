@@ -18,3 +18,15 @@ func TestFuncAsParam(t *testing.T) {
 	res := sumFunc(sum, 20, 30)
 	fmt.Println(res)
 }
+
+// 可变参数使用
+func sumMulti(num int, args ...int) int {
+	for i := 0; i < len(args); i++ {
+		num = num + args[i]
+	}
+	return num
+}
+
+func TestFuncMultiParam(t *testing.T) {
+	fmt.Println(sumMulti(1, 2, 3, 4, 5))
+}
