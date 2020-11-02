@@ -27,6 +27,8 @@
       * [Gorm Connect](https://github.com/TheAlgorithms/Go/blob/master/db/mysql/gorm/gorm_connect.go)
     * Sqlx
       * [Sqlx Connect](https://github.com/TheAlgorithms/Go/blob/master/db/mysql/sqlx/sqlx_connect.go)
+  * Redis
+    * [Redis Test](https://github.com/TheAlgorithms/Go/blob/master/db/redis/redis_test.go)
 
 ## Dynamic-Programming
   * [Longest-Palindromic-Subsequence](https://github.com/TheAlgorithms/Go/blob/master/dynamic-programming/longest-palindromic-subsequence.go)
@@ -62,6 +64,7 @@
 
 ## Test
   * [All Response Test](https://github.com/TheAlgorithms/Go/blob/master/test/all_response_test.go)
+  * [Anonymous Test](https://github.com/TheAlgorithms/Go/blob/master/test/anonymous_test.go)
   * [Cancel Test](https://github.com/TheAlgorithms/Go/blob/master/test/cancel_test.go)
   * [Channel Close Test](https://github.com/TheAlgorithms/Go/blob/master/test/channel_close_test.go)
   * [Channel Test](https://github.com/TheAlgorithms/Go/blob/master/test/channel_test.go)
