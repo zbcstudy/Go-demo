@@ -1,8 +1,10 @@
 package redis
 
 import (
+	"fmt"
 	"github.com/gomodule/redigo/redis"
 	"log"
+	"testing"
 )
 
 const password string = "ediieolol"
@@ -14,7 +16,11 @@ func redisConnect() {
 		log.Fatalln("redis connect error")
 	}
 	defer dial.Close()
+	dial.Send("SET", "name", "zbc-test")
+	result, _ := redis.String(dial.Do("GET", "name"))
+	fmt.Println(result)
+}
 
-	dial.Do("Get", "name")
-
+func TestRedisConnect(t *testing.T) {
+	redisConnect()
 }
