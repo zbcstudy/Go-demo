@@ -68,6 +68,7 @@
   * [Cancel Test](https://github.com/TheAlgorithms/Go/blob/master/test/cancel_test.go)
   * [Channel Close Test](https://github.com/TheAlgorithms/Go/blob/master/test/channel_close_test.go)
   * [Channel Test](https://github.com/TheAlgorithms/Go/blob/master/test/channel_test.go)
+  * [Closure Test](https://github.com/TheAlgorithms/Go/blob/master/test/closure_test.go)
   * [Context Test](https://github.com/TheAlgorithms/Go/blob/master/test/context_test.go)
   * Data
     * [Array Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/array_test.go)
