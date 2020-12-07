@@ -78,9 +78,11 @@
     * [Map Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/map_test.go)
     * [Recursion Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/recursion_test.go)
     * [String Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/string_test.go)
+    * [Time Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/time_test.go)
     * [Type Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/type_test.go)
   * [Empty Interface Test](https://github.com/TheAlgorithms/Go/blob/master/test/empty_interface_test.go)
   * [Encap Test](https://github.com/TheAlgorithms/Go/blob/master/test/encap_test.go)
+  * [Error Test](https://github.com/TheAlgorithms/Go/blob/master/test/error_test.go)
   * [Extension Test](https://github.com/TheAlgorithms/Go/blob/master/test/extension_test.go)
   * [First Response Test](https://github.com/TheAlgorithms/Go/blob/master/test/first_response_test.go)
   * [First Test](https://github.com/TheAlgorithms/Go/blob/master/test/first_test.go)
@@ -89,6 +91,7 @@
   * [Interface Test](https://github.com/TheAlgorithms/Go/blob/master/test/interface_test.go)
   * [Pool Test](https://github.com/TheAlgorithms/Go/blob/master/test/pool_test.go)
   * [Singleton Test](https://github.com/TheAlgorithms/Go/blob/master/test/singleton_test.go)
+  * [Uuid Test](https://github.com/TheAlgorithms/Go/blob/master/test/uuid_test.go)
   * [Web Test](https://github.com/TheAlgorithms/Go/blob/master/test/web_test.go)
 
 ## Web
