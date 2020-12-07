@@ -1,6 +1,7 @@
 package data
 
 import (
+	"fmt"
 	"math"
 	"testing"
 )
@@ -22,4 +23,10 @@ func TestPoint(t *testing.T) {
 func TestString(t *testing.T) {
 	var s string
 	t.Log("*" + s + "*")
+}
+
+func TestNewFunc(t *testing.T) {
+	num := new(int)
+	*num = 100
+	fmt.Printf("num的类型为：%T,num的内存地址为：%v,num的值为：%v", *num, &num, *num)
 }
