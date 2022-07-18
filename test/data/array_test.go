@@ -1,6 +1,8 @@
 package data
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestArrayList(t *testing.T) {
 	var arr [3]int
@@ -14,8 +16,8 @@ func TestArrayList(t *testing.T) {
 
 func TestArrayTravel(t *testing.T) {
 	arr := [...]int{2, 3, 4, 5, 6}
-	for _, e := range arr {
-		t.Log(e)
+	for index, value := range arr {
+		t.Log(index, value)
 	}
 	for i := 0; i < len(arr); i++ {
 		t.Log(arr[i])

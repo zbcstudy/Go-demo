@@ -8,6 +8,7 @@ require (
 	github.com/douglasmakey/golang-algorithms- v0.0.0-20180429234644-0a5ef73a9fd5
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-sql-driver/mysql v1.5.0
+	github.com/golang-module/carbon v1.2.7
 	github.com/gomodule/redigo v2.0.0+incompatible
 	github.com/gorilla/mux v1.8.0
 	github.com/hashicorp/go-uuid v1.0.1
