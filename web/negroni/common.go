@@ -8,8 +8,8 @@ import (
 )
 
 func main() {
-	mux := http.NewServeMux()
-	mux.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
+	serveMux := http.NewServeMux()
+	serveMux.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
 		_, _ = fmt.Fprint(writer, "welcome to the home page 111")
 	})
 	n := negroni.Classic()
