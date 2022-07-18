@@ -35,6 +35,8 @@
   * [Matrix-Multiplication](https://github.com/TheAlgorithms/Go/blob/master/dynamic-programming/matrix-multiplication.go)
   * [Rod-Cutting](https://github.com/TheAlgorithms/Go/blob/master/dynamic-programming/rod-cutting.go)
 
+## [Hello](https://github.com/TheAlgorithms/Go/blob/master//hello.go)
+
 ## Other
   * [Maxsubarraysum](https://github.com/TheAlgorithms/Go/blob/master/other/maxSubarraySum.go)
   * [Nestedbrackets](https://github.com/TheAlgorithms/Go/blob/master/other/NestedBrackets.go)
