@@ -102,3 +102,5 @@
 ## Web
   * Negroni
     * [Common](https://github.com/TheAlgorithms/Go/blob/master/web/negroni/common.go)
+  * Sdk
+    * [File Server](https://github.com/TheAlgorithms/Go/blob/master/web/sdk/file_server.go)
