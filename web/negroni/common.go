@@ -14,8 +14,8 @@ func main() {
 	})
 	n := negroni.Classic()
 	// go自带的路由
-	//n.UseHandler(mux)
-	n.UseHandler(muxRouter())
+	n.UseHandler(serveMux)
+	//n.UseHandler(muxRouter())
 	_ = http.ListenAndServe(":3001", n)
 }
 

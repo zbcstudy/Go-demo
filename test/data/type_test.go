@@ -17,7 +17,8 @@ func TestImplicit(t *testing.T) {
 func TestPoint(t *testing.T) {
 	a := 1
 	aPtr := &a
-	t.Log(a, aPtr)
+	t.Log(a, &a, aPtr)
+	t.Log(a, &a, *aPtr)
 }
 
 func TestString(t *testing.T) {
@@ -27,6 +28,8 @@ func TestString(t *testing.T) {
 
 func TestNewFunc(t *testing.T) {
 	num := new(int)
+	println(num)
 	*num = 100
+	println(&num)
 	fmt.Printf("num的类型为：%T,num的内存地址为：%v,num的值为：%v", *num, &num, *num)
 }
