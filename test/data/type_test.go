@@ -14,13 +14,6 @@ func TestImplicit(t *testing.T) {
 	t.Log(math.MaxInt8)
 }
 
-func TestPoint(t *testing.T) {
-	a := 1
-	aPtr := &a
-	t.Log(a, &a, aPtr)
-	t.Log(a, &a, *aPtr)
-}
-
 func TestString(t *testing.T) {
 	var s string
 	t.Log("*" + s + "*")

@@ -6,6 +6,31 @@ import (
 	"testing"
 )
 
+// string 类型转换
+func TestStringFmt(t *testing.T) {
+	c1 := 10
+	var num2 = 23.345
+	var val3 bool
+	var val4 byte = 'h'
+
+	var str string
+
+	str = fmt.Sprintf("%d", c1)
+	fmt.Printf("str type %T,str = %v\n", str, str)
+
+	str = fmt.Sprintf("%f", num2)
+	fmt.Printf("str type %T,str = %q\n", str, str)
+
+	str = fmt.Sprintf("%t", val3)
+	fmt.Printf("str type %T,str = %q\n", str, str)
+
+	str = fmt.Sprintf("%c", val4)
+	fmt.Printf("str type %T,str = %q\n", str, str)
+
+	fmt.Println("************************************")
+
+}
+
 func TestConv(t *testing.T) {
 	//数字转字符串
 	s := strconv.Itoa(10)
@@ -13,6 +38,10 @@ func TestConv(t *testing.T) {
 	if num, err := strconv.Atoi("10"); err == nil {
 		t.Log(10 + num)
 	}
+
+	parseInt, err := strconv.ParseInt("hello", 10, 0)
+	t.Log(err)
+	t.Log("parseInt:", parseInt)
 
 }
 
