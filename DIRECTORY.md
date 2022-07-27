@@ -99,6 +99,7 @@
     * [Singleton Test](https://github.com/TheAlgorithms/Go/blob/master/test/func/singleton_test.go)
     * [Uuid Test](https://github.com/TheAlgorithms/Go/blob/master/test/func/uuid_test.go)
     * [Web Test](https://github.com/TheAlgorithms/Go/blob/master/test/func/web_test.go)
+  * [Input](https://github.com/TheAlgorithms/Go/blob/master/test/input.go)
   * Pkg
     * [Carbon Test](https://github.com/TheAlgorithms/Go/blob/master/test/pkg/carbon_test.go)
 
