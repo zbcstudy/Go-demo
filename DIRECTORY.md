@@ -67,10 +67,13 @@
 ## Test
   * Data
     * [Array Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/array_test.go)
+    * [Bool Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/bool_test.go)
+    * [Byte Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/byte_test.go)
     * [Func Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/func_test.go)
     * [Loop Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/loop_test.go)
     * [Map Ext Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/map_ext_test.go)
     * [Map Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/map_test.go)
+    * [Point Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/point_test.go)
     * [Recursion Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/recursion_test.go)
     * [String Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/string_test.go)
     * [Time Test](https://github.com/TheAlgorithms/Go/blob/master/test/data/time_test.go)
