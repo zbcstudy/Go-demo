@@ -2,6 +2,7 @@ package _func
 
 import (
 	"fmt"
+	"runtime"
 	"sync"
 	"testing"
 )
@@ -16,7 +17,7 @@ func TestSyncPool(t *testing.T) {
 	v := pool.Get().(int)
 	fmt.Println(v)
 	pool.Put(23)
-	//runtime.GC()  //会人为触发一次gc
+	runtime.GC() //会人为触发一次gc
 	v1, _ := pool.Get().(int)
 	fmt.Println(v1)
 }
