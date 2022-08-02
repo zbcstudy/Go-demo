@@ -1,6 +1,6 @@
 module data-Algorithms
 
-go 1.13
+go 1.18
 
 require (
 	github.com/astaxie/beego v1.12.3 // indirect
@@ -19,4 +19,5 @@ require (
 	github.com/zeromicro/go-zero/tools/goctl v1.3.5
 	gorm.io/driver/mysql v1.0.2
 	gorm.io/gorm v1.20.2
+	github.com/Workiva/go-datastructures v1.0.53
 )

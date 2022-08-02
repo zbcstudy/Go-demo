@@ -11,20 +11,21 @@ import (
  * 所有接口的定义可以包含在接口使用者包内
  */
 type Programmer interface {
-	write() string
+	write(s string) string
 }
 
 type GoProgrammer struct {
 }
 
-func (gp *GoProgrammer) write() string {
-	return "hello world"
+func (gp *GoProgrammer) write(s string) string {
+	return "hello world" + s
 }
 
 func TestClient(t *testing.T) {
 	var p Programmer
 	p = new(GoProgrammer)
-	t.Log(p.write())
+	t.Log(p.write("zbc"))
+
 }
 
 type IntConv func(op int) int
