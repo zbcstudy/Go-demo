@@ -19,6 +19,14 @@ func TestFuncAsParam(t *testing.T) {
 	fmt.Println(res)
 }
 
+func TestFuncAsParam2(t *testing.T) {
+	a := sum
+	fmt.Printf("a的类型：%T,sum的类型：%T \n", a, sum)
+
+	res := a(1, 3)
+	fmt.Println(res)
+}
+
 // 可变参数使用
 func sumMulti(num int, args ...int) int {
 	for i := 0; i < len(args); i++ {

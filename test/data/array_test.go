@@ -1,6 +1,7 @@
 package data
 
 import (
+	"fmt"
 	"testing"
 )
 
@@ -58,4 +59,18 @@ func TestSliceCompare(t *testing.T) {
 	b := []int{1, 2, 3, 4}
 	// a== b 不能直接使用
 	t.Log(a, b)
+}
+
+func test01(arr []int) {
+	fmt.Println("test01 array=", arr)
+	if len(arr) > 0 {
+		arr[0] = 10
+	}
+	fmt.Println("test01 array result=", arr)
+}
+
+func TestArrayInvoke(t *testing.T) {
+	arr := []int{1, 3, 5}
+	test01(arr)
+	fmt.Println("TestArrayInvoke arr=", arr)
 }
