@@ -25,11 +25,14 @@ func main() {
 		DriverName: "mysql",
 		DSN:        url,
 	}), &gorm.Config{})
-	//_ = db.AutoMigrate(&mt)
+	_ = db.AutoMigrate(&mt)
 	err := db.Migrator().AddColumn(&mt, "str")
 	if err != nil {
 		fmt.Println("add column fail", err)
 	}
 	db.First(&mt)
 	fmt.Println(mt)
+
+	sqlDB, _ := db.DB()
+	sqlDB.SetMaxIdleConns(10)
 }

@@ -12,4 +12,7 @@ func TestCarbon(t *testing.T) {
 	fmt.Println(date)
 	fmt.Println(car.ToDateTimeString())
 	fmt.Println(car.ToDateString())
+	format := car.Format("2006/01/02 15:04:05")
+	fmt.Println(format)
+
 }
