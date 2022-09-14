@@ -747,6 +747,16 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ---
 </details><details>
+	<summary> <strong> pkg </strong> </summary>	
+
+---
+
+##### Functions:
+
+1. [`AddUpper`](./test/pkg/bibao_test.go#L9):  闭包测试
+
+---
+</details><details>
 	<summary> <strong> polybius </strong> </summary>	
 
 ---
