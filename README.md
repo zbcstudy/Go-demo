@@ -212,6 +212,17 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ---
 </details><details>
+	<summary> <strong> common </strong> </summary>	
+
+---
+
+##### Functions:
+
+1. [`DoSomething`](./test/common/empty_interface_test.go#L8): No description provided.
+2. [`DoSomethingWithSwitch`](./test/common/empty_interface_test.go#L20): No description provided.
+
+---
+</details><details>
 	<summary> <strong> conversion </strong> </summary>	
 
 ---
@@ -329,10 +340,8 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 2. [`AllResponse`](./test/function/all_response_test.go#L10):  所有任务完成
 3. [`AsyncService`](./test/function/channel_test.go#L25):  返回值是channel
 4. [`Clear`](./test/function/function_test.go#L20): No description provided.
-5. [`DoSomething`](./test/function/empty_interface_test.go#L8): No description provided.
-6. [`DoSomethingWithSwitch`](./test/function/empty_interface_test.go#L20): No description provided.
-7. [`FirstResponse`](./test/function/first_response_test.go#L15): No description provided.
-8. [`GetSingletonObj`](./test/function/singleton_test.go#L15): No description provided.
+5. [`FirstResponse`](./test/function/first_response_test.go#L15): No description provided.
+6. [`GetSingletonObj`](./test/function/singleton_test.go#L15): No description provided.
 
 ---
 ##### Types
