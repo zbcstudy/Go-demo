@@ -1,4 +1,4 @@
-package function
+package common
 
 import (
 	"fmt"

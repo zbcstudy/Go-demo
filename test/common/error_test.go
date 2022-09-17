@@ -1,4 +1,4 @@
-package function
+package common
 
 import (
 	"fmt"
@@ -11,7 +11,7 @@ func TestErrorCatch(t *testing.T) {
 }
 
 func test() {
-	//recover 用来捕获异常
+	//defer+recover 用来捕获和处理异常
 	defer func() {
 		err := recover()
 		if err != nil {

@@ -1,18 +1,13 @@
-package function
+package common
 
 import (
-	"fmt"
 	"runtime"
 	"testing"
 	"time"
 )
 
-func runTask(id int) string {
-	time.Sleep(time.Microsecond * 10)
-	return fmt.Sprintf("the result is from %d", id)
-}
-
-func FirstResponse() string {
+// 所有任务完成
+func AllResponse() string {
 	numOfRunner := 10
 	ch := make(chan string, numOfRunner)
 	//ch := make(chan string)
@@ -22,12 +17,17 @@ func FirstResponse() string {
 			ch <- ret
 		}(i)
 	}
-	return <-ch
+	finalRet := ""
+	for j := 0; j < numOfRunner; j++ {
+		finalRet += <-ch + "\n"
+
+	}
+	return finalRet
 }
 
-func TestFirstResponse(t *testing.T) {
+func TestAllResponse(t *testing.T) {
 	t.Log("before: ", runtime.NumGoroutine())
-	t.Log(FirstResponse())
+	t.Log(AllResponse())
 	time.Sleep(time.Second * 1)
 	t.Log("after: ", runtime.NumGoroutine())
 }

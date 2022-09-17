@@ -39,5 +39,20 @@ func TestPoint3(t *testing.T) {
 	*ptr = 10 // 这里修改会关联到 num
 
 	fmt.Println("num:", num)
+}
+
+func TestPoint4(t *testing.T) {
+	num1 := 100
+	fmt.Printf("num1的类型%T,num1的值%v,num1的地址%v\n", num1, num1, &num1)
+	//num1的类型int,num1的值100,num1的地址0xc00000a368
+
+	num2 := new(int)
+	fmt.Printf("num2的类型%T,num2的值%v,num2的地址%v\n", num2, num2, &num2)
+	//	num2的类型*int,num2的值0xc00000a370,num2的地址0xc000006038
+
+	println("num2指针对应的值为: ", *num2)
+
+	*num2 = 100
+	println("num2指针对应的值为: ", *num2)
 
 }
