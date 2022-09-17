@@ -6,7 +6,7 @@ require (
 	github.com/Workiva/go-datastructures v1.0.53
 	github.com/astaxie/beego v1.12.3 // indirect
 	github.com/dchest/captcha v0.0.0-20170622155422-6a29415a8364
-	github.com/douglasmakey/golang-algorithms- v0.0.0-20180429234644-0a5ef73a9fd5
+	//github.com/douglasmakey/golang-algorithms- v0.0.0-20180429234644-0a5ef73a9fd5
 	github.com/go-mysql-org/go-mysql v1.6.0
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-sql-driver/mysql v1.6.0

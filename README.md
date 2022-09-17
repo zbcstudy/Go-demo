@@ -23,25 +23,25 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ##### Functions:
 
-1. [`AddUpper`](./test/func/closure_test.go#L9): 闭包测试
-2. [`AllResponse`](./test/func/all_response_test.go#L10):  所有任务完成
-3. [`AsyncService`](./test/func/channel_test.go#L25):  返回值是channel
-4. [`Clear`](./test/func/function_test.go#L20): No description provided.
-5. [`DoSomething`](./test/func/empty_interface_test.go#L8): No description provided.
-6. [`DoSomethingWithSwitch`](./test/func/empty_interface_test.go#L20): No description provided.
-7. [`FirstResponse`](./test/func/first_response_test.go#L15): No description provided.
-8. [`GetSingletonObj`](./test/func/singleton_test.go#L15): No description provided.
+1. [`AddUpper`](test/function/closure_test.go#L9): 闭包测试
+2. [`AllResponse`](test/function/all_response_test.go#L10):  所有任务完成
+3. [`AsyncService`](test/function/channel_test.go#L25):  返回值是channel
+4. [`Clear`](test/function/function_test.go#L20): No description provided.
+5. [`DoSomething`](test/function/empty_interface_test.go#L8): No description provided.
+6. [`DoSomethingWithSwitch`](test/function/empty_interface_test.go#L20): No description provided.
+7. [`FirstResponse`](test/function/first_response_test.go#L15): No description provided.
+8. [`GetSingletonObj`](test/function/singleton_test.go#L15): No description provided.
 
 ---
 ##### Types
 
-1. [`Dog`](./test/func/extension_test.go#L20): No description provided.
+1. [`Dog`](test/function/extension_test.go#L20): No description provided.
 
-2. [`Employee`](./test/func/encap_test.go#L9): No description provided.
+2. [`Employee`](test/function/encap_test.go#L9): No description provided.
 
-3. [`GoProgrammer`](./test/func/interface_test.go#L17): No description provided.
+3. [`GoProgrammer`](test/function/interface_test.go#L17): No description provided.
 
-4. [`Pet`](./test/func/extension_test.go#L8): No description provided.
+4. [`Pet`](test/function/extension_test.go#L8): No description provided.
 
 
 ---
