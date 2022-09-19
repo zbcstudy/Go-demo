@@ -24,4 +24,7 @@ require (
 	gorm.io/gorm v1.20.2
 	github.com/emirpasic/gods v1.18.1
 	github.com/bluele/gcache v0.0.2
+	github.com/gin-gonic/gin v1.8.1
+	github.com/gin-gonic/examples v0.0.0-20220903021011-10e278110b96
+	github.com/labstack/echo/v4 v4.9.0
 )
