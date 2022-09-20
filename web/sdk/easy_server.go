@@ -7,7 +7,10 @@ import (
 )
 
 func sayHelloName(w http.ResponseWriter, r *http.Request) {
-	r.ParseForm() // 解析参数 默认不解析
+	err2 := r.ParseForm() // 解析参数 默认不解析
+	if err2 == nil {
+
+	}
 	fmt.Println("Form:", r.Form)
 	fmt.Println("path", r.URL.Path)
 	fmt.Println("schema", r.URL.Scheme)
