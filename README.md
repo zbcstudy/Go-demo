@@ -754,7 +754,8 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 ##### Functions:
 
 1. [`AddUpper`](./test/pkg/bibao_test.go#L9):  闭包测试
-2. [`BubbleSort`](./test/pkg/array_sort_test.go#L8): No description provided.
+2. [`BinaryFind`](./test/pkg/binary_search.go#L5): No description provided.
+3. [`BubbleSort`](./test/pkg/array_sort_test.go#L8): No description provided.
 
 ---
 </details><details>
