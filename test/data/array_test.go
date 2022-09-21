@@ -13,6 +13,9 @@ func TestArrayList(t *testing.T) {
 	//不定长数组
 	arr2 := [...]int{2, 3, 4, 5}
 	t.Log(arr2)
+
+	arr3 := [...]int{2: 200, 0: 100, 1: 300}
+	fmt.Println(arr3)
 }
 
 func TestArrayTravel(t *testing.T) {
@@ -73,4 +76,14 @@ func TestArrayInvoke(t *testing.T) {
 	arr := []int{1, 3, 5}
 	test01(arr)
 	fmt.Println("TestArrayInvoke arr=", arr)
+}
+
+func test02(arr *[3]int) {
+	(*arr)[0] = 88
+}
+
+func TestArrayPoint(t *testing.T) {
+	arr := [3]int{11, 22, 33}
+	test02(&arr)
+	fmt.Printf("%v", arr)
 }
