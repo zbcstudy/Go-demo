@@ -14,6 +14,30 @@ type Person struct {
 	info  map[string]string
 }
 
+type Monster struct {
+	Name string `json:"name"`
+	Age  int    `json:"age"`
+	R    string `json:"r"`
+}
+
+func (m Monster) SetAge(age int) {
+	m.Age = age
+	fmt.Println("修改后的值：", m.Age)
+}
+
+func (m *Monster) setAgeWithPoint(age int) {
+	m.Age = age
+	fmt.Println("修改后的值：", m.Age)
+}
+
+type Circle struct {
+	radius float64
+}
+
+func (c Circle) area() float64 {
+	return 3.14 * c.radius * c.radius
+}
+
 func main() {
 	// 默认值
 	defaultVal := Person{

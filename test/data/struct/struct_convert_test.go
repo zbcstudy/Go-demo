@@ -6,11 +6,11 @@ import (
 )
 
 type A struct {
-	num int
+	Num int
 }
 
 type B struct {
-	num int
+	Num int
 }
 
 // 结构体之间进行转换 必须 结构体的字段名称、类型、个数完全一致才可以
