@@ -473,6 +473,16 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ---
 </details><details>
+	<summary> <strong> handler </strong> </summary>	
+
+---
+
+##### Functions:
+
+1. [`UploadHandler`](./baidu_oss/handler/handler.go#L8): No description provided.
+
+---
+</details><details>
 	<summary> <strong> hashmap </strong> </summary>	
 
 ---
