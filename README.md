@@ -17,6 +17,31 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 # Packages:
 
 <details>
+	<summary> <strong> _interface </strong> </summary>	
+
+---
+
+##### Types
+
+1. [`Camera`](./test/data/interface/usb_init.go#L22): No description provided.
+
+2. [`Computer`](./test/data/interface/usb_init.go#L34): No description provided.
+
+3. [`Hero`](./test/data/interface/sort_interface_test.go#L11): No description provided.
+
+4. [`HeroSlice`](./test/data/interface/sort_interface_test.go#L16): No description provided.
+
+5. [`Iphone`](./test/data/interface/usb_init.go#L10): No description provided.
+
+6. [`LittleMonkey`](./test/data/interface/interface_struct_test.go#L12): No description provided.
+
+7. [`Monkey`](./test/data/interface/interface_struct_test.go#L8): No description provided.
+
+8. [`Student`](./test/data/interface/empty_interface_test.go#L9): No description provided.
+
+
+---
+</details><details>
 	<summary> <strong> ahocorasick </strong> </summary>	
 
 ---
@@ -55,6 +80,17 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 ##### Functions:
 
 1. [`IsArmstrong`](./math/armstrong/isarmstrong.go#L14): No description provided.
+
+---
+</details><details>
+	<summary> <strong> assert </strong> </summary>	
+
+---
+
+##### Types
+
+1. [`Point`](./test/data/assert/assert_test.go#L8): No description provided.
+
 
 ---
 </details><details>
