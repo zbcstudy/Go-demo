@@ -14,7 +14,7 @@ require (
 	github.com/go-playground/validator/v10 v10.11.1
 	github.com/gookit/goutil v0.5.12
 	// github.com/Workiva/go-datastructures v1.0.53
-	// github.com/astaxie/beego v1.12.3 // indirect
+	github.com/astaxie/beego v1.12.3 // indirect
 	// github.com/bluele/gcache v0.0.2
 	// github.com/dchest/captcha v0.0.0-20170622155422-6a29415a8364
 	// github.com/emirpasic/gods v1.18.1
