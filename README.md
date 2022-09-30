@@ -384,6 +384,23 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ---
 </details><details>
+	<summary> <strong> file </strong> </summary>	
+
+---
+
+##### Functions:
+
+1. [`CopyFile`](./test/file/file_copy_test.go#L11): No description provided.
+2. [`FileCount`](./test/file/char_count_test.go#L18): No description provided.
+
+---
+##### Types
+
+1. [`CharCount`](./test/file/char_count_test.go#L11): No description provided.
+
+
+---
+</details><details>
 	<summary> <strong> gcd </strong> </summary>	
 
 ---
