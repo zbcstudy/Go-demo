@@ -18,4 +18,7 @@ require (
 	github.com/elastic/go-elasticsearch/v7 v7.17.0
 	github.com/leaanthony/slicer v1.6.0
 	github.com/reugn/go-streams v0.7.0
+	github.com/panjf2000/gnet v1.6.0
+	github.com/cloudwego/kitex v0.4.2
+	github.com/coocood/freecache v1.2.2
 )
