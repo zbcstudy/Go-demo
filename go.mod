@@ -3,7 +3,7 @@ module data
 go 1.15
 
 require (
-	// github.com/Workiva/go-datastructures v1.0.53
+	github.com/Workiva/go-datastructures v1.0.53
 	github.com/astaxie/beego v1.12.3 // indirect
 	github.com/davecgh/go-spew v1.1.1
 	github.com/elliotchance/pie v1.39.0
@@ -14,7 +14,7 @@ require (
 	 gorm.io/driver/mysql v1.0.2
 	 gorm.io/gorm v1.20.2
 	github.com/go-playground/validator/v10 v10.11.1
-	// github.com/bluele/gcache v0.0.2
+	github.com/bluele/gcache v0.0.2
 	// github.com/dchest/captcha v0.0.0-20170622155422-6a29415a8364
 	// github.com/emirpasic/gods v1.18.1
 	// github.com/gin-gonic/examples v0.0.0-20220903021011-10e278110b96
