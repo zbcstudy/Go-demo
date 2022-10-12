@@ -620,6 +620,22 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ---
 </details><details>
+	<summary> <strong> main </strong> </summary>	
+
+---
+
+##### Functions:
+
+1. [`RegisterHelloService`](./web/sdk/rpc_plus/server/server.go#L24): No description provided.
+
+---
+##### Types
+
+1. [`HelloService`](./web/sdk/rpc_plus/server/server.go#L12): No description provided.
+
+
+---
+</details><details>
 	<summary> <strong> manacher </strong> </summary>	
 
 ---
