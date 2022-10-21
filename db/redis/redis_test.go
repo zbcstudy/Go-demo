@@ -16,7 +16,7 @@ func redisConnect() {
 		log.Fatalln("redis connect error")
 	}
 	defer dial.Close()
-	dial.Send("SET", "name", "zbc-test")
+	_ = dial.Send("SET", "name", "zbc-test")
 	result, _ := redis.String(dial.Do("GET", "name"))
 	fmt.Println(result)
 }
