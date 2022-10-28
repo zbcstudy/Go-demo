@@ -1,6 +1,7 @@
 package handler
 
 import (
+	"github.com/containerd/containerd"
 	"io/ioutil"
 	"net/http"
 )
@@ -15,5 +16,6 @@ func UploadHandler(w http.ResponseWriter, r *http.Request) {
 	} else if r.Method == "POST" {
 
 	}
+	containerd.New()
 	w.Write([]byte("1234"))
 }

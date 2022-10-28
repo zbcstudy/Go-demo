@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"runtime"
 )
 
@@ -15,4 +16,9 @@ func main() {
 	numGoroutine := runtime.NumGoroutine()
 	fmt.Println("numGoroutine:", numGoroutine)
 
+	fmt.Println("Getpagesize:", os.Getpagesize())
+
+	hostname, _ := os.Hostname()
+
+	fmt.Println("Hostname:", hostname)
 }

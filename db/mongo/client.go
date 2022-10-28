@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"time"
 )
 
 const (
@@ -22,19 +22,30 @@ func main() {
 		Username: "app_user_ali",
 		Password: "BmdJ23-1",
 	})
-	client, err := mongo.NewClient(config)
+	ctx, cancelFunc := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancelFunc()
+	client, err := mongo.Connect(ctx, config)
 	if err != nil {
 		fmt.Println("mongo connect error: ", err)
 	}
 	coll := client.Database(database).Collection(collection)
 
-	result := coll.FindOne(context.Background(), bson.D{{"_id", bsoncore.Value{
-		Type: bsontype.ObjectID,
-		Data: []byte("63455c365d0b503f1022da7b"),
-	}}}, options.FindOne())
+	// 生成objectId
+	objectID, _ := primitive.ObjectIDFromHex("6348f2ad5d0b507fb28fcc95")
+
+	fmt.Println("objectId:", objectID)
+
+	result := coll.FindOne(context.Background(), bson.D{{"_id", objectID}}, options.FindOne())
 	if result.Err() != nil {
 		fmt.Println("find func error:", result.Err())
 	}
-	bytes, _ := result.DecodeBytes()
-	fmt.Println(string(bytes))
+
+	var res map[string]interface{}
+
+	_ = result.Decode(&res)
+
+	for key, value := range res {
+		fmt.Printf("res[%v]=%v\n", key, value)
+	}
+
 }

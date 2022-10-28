@@ -80,6 +80,7 @@ func TestArrayInvoke(t *testing.T) {
 
 func test02(arr *[3]int) {
 	(*arr)[0] = 88
+	println(len(*arr))
 }
 
 func TestArrayPoint(t *testing.T) {
