@@ -252,27 +252,13 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ---
 
-##### Functions:
-
-1. [`AddUpper`](./test/common/closure_test.go#L9): 闭包测试
-2. [`AllResponse`](./test/common/all_response_test.go#L10):  所有任务完成
-3. [`AsyncService`](./test/common/channel_test.go#L25):  返回值是channel
-4. [`Clear`](./test/common/function_test.go#L20): No description provided.
-5. [`DoSomething`](./test/common/empty_interface_test.go#L8): No description provided.
-6. [`DoSomethingWithSwitch`](./test/common/empty_interface_test.go#L20): No description provided.
-7. [`FirstResponse`](./test/common/first_response_test.go#L15): No description provided.
-8. [`GetSingletonObj`](./test/common/singleton_test.go#L15): No description provided.
-
----
 ##### Types
 
-1. [`Dog`](./test/common/extension_test.go#L20): No description provided.
+1. [`LoginMes`](./web/chat/common/common.go#L14): No description provided.
 
-2. [`Employee`](./test/common/encap_test.go#L9): No description provided.
+2. [`LoginResMes`](./web/chat/common/common.go#L20): No description provided.
 
-3. [`GoProgrammer`](./test/common/interface_test.go#L17): No description provided.
-
-4. [`Pet`](./test/common/extension_test.go#L8): No description provided.
+3. [`Message`](./web/chat/common/common.go#L9): No description provided.
 
 
 ---
@@ -532,7 +518,7 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ##### Functions:
 
-1. [`UploadHandler`](./baidu_oss/handler/handler.go#L8): No description provided.
+1. [`UploadHandler`](./baidu_oss/handler/handler.go#L9): No description provided.
 
 ---
 </details><details>
@@ -626,13 +612,7 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ##### Functions:
 
-1. [`RegisterHelloService`](./web/sdk/rpc_plus/server/server.go#L24): No description provided.
-
----
-##### Types
-
-1. [`HelloService`](./web/sdk/rpc_plus/server/server.go#L12): No description provided.
-
+1. [`Echo`](./web/ws/server.go#L10): No description provided.
 
 ---
 </details><details>
