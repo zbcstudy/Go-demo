@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"path/filepath"
 )
 
 func main() {
@@ -11,4 +12,7 @@ func main() {
 	for i, v := range args {
 		fmt.Printf("args[%v]=%v\n", i, v)
 	}
+	arg0 := os.Args[0]
+	base := filepath.Base(arg0)
+	fmt.Println("base:", base)
 }

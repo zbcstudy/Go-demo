@@ -14,8 +14,8 @@ func main() {
 	})
 	n := negroni.Classic()
 	// go自带的路由
-	n.UseHandler(serveMux)
-	//n.UseHandler(muxRouter())
+	//n.UseHandler(serveMux)
+	n.UseHandler(muxRouter())
 	_ = http.ListenAndServe(":3001", n)
 }
 
@@ -23,9 +23,17 @@ func main() {
 func muxRouter() *mux.Router {
 	r := mux.NewRouter()
 	r.HandleFunc("/first", firstHandler)
+	r.HandleFunc("/second", func(writer http.ResponseWriter, request *http.Request) {
+		form := request.Form
+		fmt.Println(form)
+		url := request.URL
+		fmt.Println("url:", url)
+	})
 	return r
 }
 
 func firstHandler(writer http.ResponseWriter, request *http.Request) {
+	body := request.Body
+	fmt.Println(body)
 	_, _ = writer.Write([]byte("first route handler"))
 }

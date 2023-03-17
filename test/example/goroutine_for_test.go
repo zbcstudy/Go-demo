@@ -21,7 +21,7 @@ func TestForWithErr(t *testing.T) {
 	}
 
 	for _ = range values {
-		<-done
+		fmt.Println(<-done)
 	}
 }
 

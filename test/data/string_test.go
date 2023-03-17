@@ -2,8 +2,10 @@ package data
 
 import (
 	"fmt"
+	"reflect"
 	"strconv"
 	"testing"
+	"unsafe"
 )
 
 // string 类型转换
@@ -71,4 +73,18 @@ func TestLength(t *testing.T) {
 
 	str = strconv.FormatInt(123, 16)
 	fmt.Println("十进制123对应的16进制是：", str)
+}
+
+// 字符串字面量 该变量的内存地址 底层字节切片
+func TestStringStruct(t *testing.T) {
+	a := "hello"
+	fmt.Println(a, &a, (*reflect.StringHeader)(unsafe.Pointer(&a)))
+
+	a = "world"
+	fmt.Println(a, &a, (*reflect.StringHeader)(unsafe.Pointer(&a)))
+
+	b := "hello"
+	fmt.Println(b, &b, (*reflect.StringHeader)(unsafe.Pointer(&b)))
+
+	fmt.Println(unsafe.Pointer(&b))
 }

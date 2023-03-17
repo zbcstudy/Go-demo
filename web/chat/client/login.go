@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"net"
 	"strconv"
+	"time"
 )
 
 func Login(userId int, password string) error {
@@ -59,5 +60,17 @@ func Login(userId int, password string) error {
 		return err
 	}
 	fmt.Printf("客户端发送消息的长度：%d,内容：%v\n", len(mesData), string(mesData))
+
+	// 发送消息本身
+	_, err = conn.Write(mesData)
+	if err != nil {
+		fmt.Println("conn write(data) err:", err)
+		return err
+	}
+
+	// 休眠20s
+	time.Sleep(time.Second * 20)
+	// 处理服务器端返回的信息
+
 	return nil
 }
