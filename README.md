@@ -518,7 +518,8 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ##### Functions:
 
-1. [`UploadHandler`](./baidu_oss/handler/handler.go#L8): No description provided.
+1. [`UploadHandler`](./baidu_oss/handler/handler.go#L11): No description provided.
+2. [`UploadSuccessHandler`](./baidu_oss/handler/handler.go#L45):  上传完成
 
 ---
 </details><details>
@@ -867,6 +868,25 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 9. [`OptimizedTrialDivision`](./math/prime/primecheck.go#L26):  OptimizedTrialDivision checks primality of an integer using an optimized trial division method. The optimizations include not checking divisibility by the even numbers and only checking up to the square root of the given number.
 10. [`Sieve`](./math/prime/sieve.go#L16):  Sieve Sieving the numbers that are not prime from the channel - basically removing them from the channels
 11. [`TrialDivision`](./math/prime/primecheck.go#L9):  TrialDivision tests whether a number is prime by trying to divide it by the numbers less than it.
+
+---
+</details><details>
+	<summary> <strong> pubsub </strong> </summary>	
+
+---
+
+#####  Package pubsub implements a simple multi-topic pub-sub library.  Topics must be strings and messages of any type can be published. A topic can have any number of subcribers and all of them receive messages published on the topic.
+
+---
+##### Functions:
+
+1. [`New`](./pubsub/pubsub.go#L42):  New creates a new PubSub and starts a goroutine for handling operations. The capacity of the channels created by Sub and SubOnce will be as specified.
+
+---
+##### Types
+
+1. [`PubSub`](./pubsub/pubsub.go#L28): No description provided.
+
 
 ---
 </details><details>
