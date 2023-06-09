@@ -8,6 +8,7 @@ require (
 	github.com/bluele/gcache v0.0.2
 	github.com/davecgh/go-spew v1.1.1
 	github.com/elliotchance/pie v1.39.0
+	github.com/go-oauth2/oauth2/v4 v4.5.1
 	github.com/go-playground/validator/v10 v10.11.1
 	github.com/gobwas/avl v0.2.1
 	github.com/gobwas/glob v0.2.3
@@ -42,12 +43,12 @@ require (
 	github.com/streadway/amqp v1.0.0
 	// github.com/rogpeppe/fastuuid v1.2.0
 	github.com/urfave/negroni v1.0.0
+	github.com/voidint/g v1.5.0
+	github.com/zehuamama/tinyrpc v0.3.2-0.20220621083147-b3e9954dcb58
 	github.com/zeromicro/go-zero v1.3.5
 	go.mongodb.org/mongo-driver v1.9.1
-	golang.org/x/net v0.0.0-20220826154423-83b083e8dc8b
+	golang.org/x/net v0.2.0
 	// github.com/zeromicro/go-zero/tools/goctl v1.3.5
 	gorm.io/driver/mysql v1.0.2
 	gorm.io/gorm v1.20.2
-	github.com/go-oauth2/oauth2/v4 v4.5.1
-	github.com/zehuamama/tinyrpc v0.3.2-0.20220621083147-b3e9954dcb58
 )
