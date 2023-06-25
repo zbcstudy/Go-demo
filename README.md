@@ -103,15 +103,16 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 ---
 ##### Functions:
 
-1. [`Delete`](./structure/avl/avl.go#L72):  Delete : remove given key from the tree
-2. [`Get`](./structure/avl/avl.go#L20):  Get : return node with given key
-3. [`Insert`](./structure/avl/avl.go#L35):  Insert a new item
-4. [`NewTree`](./structure/avl/avl.go#L15):  NewTree create a new AVL tree
+1. [`Delete`](./structure/avl/avl.go#L77):  Delete : remove given key from the tree
+2. [`Get`](./structure/avl/avl.go#L25):  Get : return node with given key
+3. [`Insert`](./structure/avl/avl.go#L40):  Insert a new item
+4. [`NewTree`](./structure/avl/avl.go#L20):  NewTree create a new AVL tree
+5. [`ToString`](./structure/avl/avl.go#L227): No description provided.
 
 ---
 ##### Types
 
-1. [`Node`](./structure/avl/avl.go#L8): No description provided.
+1. [`Node`](./structure/avl/avl.go#L13): No description provided.
 
 
 ---
@@ -518,8 +519,12 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ##### Functions:
 
-1. [`UploadHandler`](./baidu_oss/handler/handler.go#L11): No description provided.
-2. [`UploadSuccessHandler`](./baidu_oss/handler/handler.go#L45):  上传完成
+1. [`DownloadHandler`](./baidu_oss/handler/handler.go#L91): No description provided.
+2. [`FileDeleteHandler`](./baidu_oss/handler/handler.go#L146): No description provided.
+3. [`FileMetaUpdateHandler`](./baidu_oss/handler/handler.go#L113):  更新文件meta信息
+4. [`GetFileMetaHandler`](./baidu_oss/handler/handler.go#L78):  获取文件meta信息
+5. [`UploadHandler`](./baidu_oss/handler/handler.go#L15): No description provided.
+6. [`UploadSuccessHandler`](./baidu_oss/handler/handler.go#L73):  上传完成
 
 ---
 </details><details>
@@ -667,6 +672,24 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 ##### Functions:
 
 1. [`MaxSubarraySum`](./other/maxsubarraysum/maxsubarraysum.go#L13):  MaxSubarraySum returns the maximum subarray sum
+
+---
+</details><details>
+	<summary> <strong> meta </strong> </summary>	
+
+---
+
+##### Functions:
+
+1. [`GetFileMeta`](./baidu_oss/meta/filemeta.go#L23):  通过sha1获取文件元数据
+2. [`RemoveFileMeta`](./baidu_oss/meta/filemeta.go#L27): No description provided.
+3. [`UpdateFileMeta`](./baidu_oss/meta/filemeta.go#L18):  更新文件元数据
+
+---
+##### Types
+
+1. [`FileMeta`](./baidu_oss/meta/filemeta.go#L3): No description provided.
+
 
 ---
 </details><details>
@@ -1083,6 +1106,27 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 ##### Types
 
 1. [`Node`](./structure/trie/trie.go#L7): No description provided.
+
+
+---
+</details><details>
+	<summary> <strong> util </strong> </summary>	
+
+---
+
+##### Functions:
+
+1. [`FileMD5`](./baidu_oss/util/util.go#L46): No description provided.
+2. [`FileSha1`](./baidu_oss/util/util.go#L34): No description provided.
+3. [`GetFileSize`](./baidu_oss/util/util.go#L63): No description provided.
+4. [`MD5`](./baidu_oss/util/util.go#L40): No description provided.
+5. [`PathExists`](./baidu_oss/util/util.go#L52): No description provided.
+6. [`Sha1`](./baidu_oss/util/util.go#L28): No description provided.
+
+---
+##### Types
+
+1. [`Sha1Stream`](./baidu_oss/util/util.go#L13): No description provided.
 
 
 ---
