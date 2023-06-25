@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"testing"
 )
@@ -9,6 +10,8 @@ import (
 func TestStructDefine(t *testing.T) {
 	// 1
 	var person Person
+	marshal, _ := json.Marshal(person)
+	fmt.Println(string(marshal))
 	person.Name = "name"
 
 	// 2

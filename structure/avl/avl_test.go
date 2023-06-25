@@ -1,7 +1,10 @@
 package avl
 
 import (
+	"fmt"
+	"math/rand"
 	"testing"
+	"time"
 )
 
 func TestInsert(t *testing.T) {
@@ -273,5 +276,17 @@ func TestGet(t *testing.T) {
 	if n.Left.Key != 3 {
 		t.Error("left child should have value 3")
 	}
+
+}
+
+func TestToString(t *testing.T) {
+	root := NewTree()
+	rand.Seed(time.Now().UnixNano())
+	for i := 1; i < 10; i++ {
+		val := rand.Intn(100)
+		fmt.Println(val)
+		Insert(&root, val)
+	}
+	ToString(root)
 
 }

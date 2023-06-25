@@ -20,6 +20,9 @@ func TestFibList(t *testing.T) {
 		b = temp + a
 	}
 
+	var c int
+	fmt.Println(c)
+
 }
 
 //指针测试

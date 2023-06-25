@@ -4,6 +4,11 @@
 // more information : https://en.wikipedia.org/wiki/AVL_tree
 package avl
 
+import (
+	"encoding/json"
+	"fmt"
+)
+
 // Node of a tree
 type Node struct {
 	Key         int
@@ -217,4 +222,9 @@ func min(root *Node) int {
 		return root.Key
 	}
 	return min(root.Left)
+}
+
+func ToString(node *Node) {
+	bytes, _ := json.Marshal(*node)
+	fmt.Println(string(bytes))
 }
