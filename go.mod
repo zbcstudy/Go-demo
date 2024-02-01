@@ -37,7 +37,7 @@ require (
 	// // github.com/gomodule/redigo v2.0.0+incompatible
 	// // github.com/google/uuid v1.3.0
 	// // github.com/gorilla/mux v1.8.0
-	// // github.com/hashicorp/go-uuid v1.0.2
+	  github.com/hashicorp/go-uuid v1.0.2
 	// github.com/jmoiron/sqlx v1.3.3
 	// github.com/labstack/echo/v4 v4.6.3
 	// github.com/rogpeppe/fastuuid v1.2.0
