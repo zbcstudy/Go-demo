@@ -43,7 +43,7 @@ require (
 	// github.com/rogpeppe/fastuuid v1.2.0
 	// github.com/streadway/amqp v1.0.0
 	// // github.com/rogpeppe/fastuuid v1.2.0
-	// github.com/urfave/negroni v1.0.0
+	 github.com/urfave/negroni v1.0.0
 	// github.com/voidint/g v1.5.0
 	// github.com/zehuamama/tinyrpc v0.3.2-0.20220621083147-b3e9954dcb58
 	// github.com/zeromicro/go-zero v1.3.5
