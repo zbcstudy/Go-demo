@@ -1,6 +1,7 @@
 package data
 
 import (
+	"encoding/json"
 	"fmt"
 	"sort"
 	"testing"
@@ -74,3 +75,11 @@ func TestMapSort(t *testing.T) {
 //	spew.Dump(&sMap)
 //	fmt.Println(sMap.Get("zbc"))
 //}
+
+func TestAny(t *testing.T) {
+	anyMap := make(map[string]any)
+	anyMap["a"] = 1
+	anyMap["b"] = "2"
+	bytes, _ := json.Marshal(anyMap)
+	fmt.Println(string(bytes))
+}

@@ -32,10 +32,10 @@ func TestPoint2(t *testing.T) {
 
 func TestPoint3(t *testing.T) {
 	var num int = 9
-	fmt.Printf("num的address：%v\n", &num)
+	fmt.Printf("num的address：%v,num的类型%T\n", &num, num)
 
-	var ptr *int = &num
-
+	ptr := &num
+	fmt.Printf("ptr的类型:%T\n", ptr)
 	*ptr = 10 // 这里修改会关联到 num
 
 	fmt.Println("num:", num)

@@ -1,8 +1,11 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"github.com/davecgh/go-spew/spew"
+	"net"
+	"time"
 )
 
 type Person struct {
@@ -63,4 +66,15 @@ func main() {
 
 	fmt.Println("person：", person)
 	fmt.Println("person2：", person2)
+
+	var config net.ListenConfig
+	config.KeepAlive = time.Hour * 2
+	configByte, _ := json.Marshal(config)
+	fmt.Println(configByte)
+
+	listenConfig := net.ListenConfig{
+		KeepAlive: 1,
+	}
+	lcb, _ := json.Marshal(listenConfig)
+	fmt.Println(lcb)
 }

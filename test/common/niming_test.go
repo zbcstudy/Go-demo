@@ -1,4 +1,4 @@
-package _test
+package common
 
 import (
 	"fmt"
