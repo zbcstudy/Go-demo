@@ -34,8 +34,8 @@ func main() {
 	if err != nil {
 		return
 	}
-	watch.
-		coll := client.Database(database).Collection(collection)
+	watch.ID()
+	coll := client.Database(database).Collection(collection)
 
 	// 生成objectId
 	objectID, _ := primitive.ObjectIDFromHex("648bdc36626ca006d7567508")
