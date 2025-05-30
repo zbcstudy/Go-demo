@@ -1,6 +1,6 @@
 module a_pkg
 
-go 1.24.1
+go 1.24.3
 
 require (
 	bazil.org/fuse v0.0.0-20230120002735-62a210ff1fd5
@@ -21,7 +21,7 @@ require (
 	github.com/codegangsta/cli v1.22.16
 	github.com/compose-spec/compose-go/v2 v2.6.2
 	github.com/containerd/cgroups/v3 v3.0.5
-	github.com/containerd/containerd v1.7.23
+	github.com/containerd/containerd v1.7.24
 	github.com/containerd/containerd/v2 v2.1.0
 	github.com/containerd/nerdctl v1.7.5
 	github.com/containernetworking/cni v1.3.0
@@ -65,6 +65,7 @@ require (
 	github.com/golang-module/dongle v0.2.4
 	github.com/goodrain/rainbond v0.0.0-20241203084856-572501181669
 	github.com/google/btree v1.1.3 // indirect
+	github.com/google/pprof v0.0.0-20250501235452-c0086092b71a
 	github.com/gookit/config/v2 v2.1.6
 	github.com/gookit/filter v1.1.3
 	github.com/gookit/gcli/v3 v3.0.7-0.20220904045221-3d6cf1f66110
@@ -82,6 +83,7 @@ require (
 	github.com/ipfs/kubo v0.26.0
 	github.com/jmoiron/sqlx v1.4.0
 	github.com/julienschmidt/httprouter v1.3.0
+	github.com/k3s-io/k3s v1.33.1-0.20250430173654-63ab8e534cdf
 	github.com/karmada-io/karmada v1.13.1
 	github.com/kata-containers/kata-containers v0.0.0-20221110134924-56641bc2303c
 	github.com/kataras/iris/v12 v12.2.11
@@ -90,7 +92,7 @@ require (
 	github.com/koderover/zadig v1.18.0
 	github.com/kubecube-io/kubecube v1.5.1
 	github.com/kubernetes-sigs/cri-tools v0.0.0
-	github.com/labstack/echo/v4 v4.11.4
+	github.com/labstack/echo/v4 v4.12.0
 	github.com/leaanthony/slicer v1.6.0
 	github.com/lima-vm/lima v0.13.1-0.20221108071032-4a4cc62749c1
 	github.com/linkerd/linkerd2 v0.5.1-0.20221110190454-75cbed2469cc
@@ -112,10 +114,10 @@ require (
 	github.com/opencontainers/umoci v0.4.8-0.20221029002459-fb2db51251ac
 	github.com/opensearch-project/opensearch-go/v2 v2.3.0
 	github.com/panjf2000/gnet v1.6.0
-	github.com/pingcap/tidb v1.1.0-beta.0.20221101122759-863d35290cc4
+	github.com/pingcap/tidb v1.1.0-beta.0.20250116073434-fea86c8e35ad
 	github.com/pingcap/tiflow v0.0.0-20221107160750-0ad56ca6594a
 	github.com/polarismesh/polaris v1.17.2-0.20230531031309-90b39c8785f4
-	github.com/rancher/k3s v1.21.9
+	//github.com/rancher/k3s v1.33.1-0.20250430173654-63ab8e534cdf
 	github.com/rancher/rancher v0.0.0-20240226212747-4119767ddf14
 	github.com/rancher/rke v1.5.5
 	github.com/rancher/rke2 v1.25.4-0.20221102171456-ddb87a9b6684
@@ -143,11 +145,11 @@ require (
 	go-micro.dev/v5 v5.3.0
 	go.mongodb.org/mongo-driver v1.17.2
 	golang.org/x/oauth2 v0.28.0 // indirect
-	golang.org/x/term v0.31.0 // indirect
-	golang.org/x/text v0.24.0 // indirect
-	helm.sh/helm/v3 v3.16.2
+	golang.org/x/term v0.32.0 // indirect
+	golang.org/x/text v0.25.0
+	helm.sh/helm/v3 v3.17.3
 	k8s.io/minikube v1.28.1-0.20221202001624-44ea7f43205e
-	k8s.io/mount-utils v0.25.2
+	k8s.io/mount-utils v0.32.4
 	kubesphere.io/kubesphere v0.0.0-20250303081139-2ed83e77d41c //v0.0.0-20221102022257-ff59b80c2807
 	sigs.k8s.io/kubefed v0.10.0
 	vitess.io/vitess v0.10.3-0.20250311021806-209d940ad923
@@ -157,7 +159,7 @@ require (
 	github.com/Workiva/go-datastructures v1.1.5
 	github.com/blevesearch/bleve/v2 v2.4.2
 	github.com/bombsimon/logrusr/v4 v4.1.0
-	github.com/cilium/ebpf v0.16.0
+	github.com/cilium/ebpf v0.17.3
 	github.com/containerd/containerd/api v1.9.0
 	github.com/containerd/continuity v0.4.5
 	github.com/containerd/go-cni v1.1.12
@@ -207,19 +209,27 @@ require (
 	github.com/rqlite/sql v0.0.0-20241111133259-a4122fabb196
 	github.com/secure-systems-lab/go-securesystemslib v0.9.0
 	github.com/smartystreets/assertions v1.13.0 // indirect
-	github.com/spf13/afero v1.12.0
+	github.com/spf13/afero v1.14.0
 	github.com/vbauerster/mpb/v5 v5.4.0 // indirect
 	github.com/vektra/mockery/v2 v2.53.3
-	golang.org/x/crypto v0.37.0
+	golang.org/x/crypto v0.38.0
 	golang.org/x/exp v0.0.0-20250408133849-7e4ce0ab07d0
-	golang.org/x/net v0.39.0
+	golang.org/x/net v0.40.0
 	golang.org/x/sync v0.14.0
 	golang.org/x/sys v0.33.0
+	golang.org/x/tools v0.33.0
 	google.golang.org/genproto v0.0.0-20250324211829-b45e905df463
-	modernc.org/fileutil v1.3.0
+	//github.com/harness/gitness/v2 v2.26.0
+	//github.com/drone/drone/v2 latest
+	modernc.org/cc/v4 v4.26.1
+	modernc.org/ccgo/v4 v4.28.0
+	modernc.org/ccorpus2 v1.5.2
+	modernc.org/fileutil v1.3.1
+	modernc.org/gc/v2 v2.6.5
 	modernc.org/golex v1.1.0
-	modernc.org/libc v1.61.11
-	modernc.org/memory v1.8.2
+	modernc.org/libc v1.65.3
+	modernc.org/memory v1.10.0
+	modernc.org/opt v0.1.4
 	modernc.org/sortutil v1.2.1
 	moul.io/http2curl v1.0.0 // indirect
 // https://github.com/micro/plugins
@@ -272,7 +282,7 @@ require (
 	go.opentelemetry.io/collector/consumer v1.30.0
 	go.opentelemetry.io/collector/pdata v1.30.0
 	go.opentelemetry.io/collector/processor v1.30.0
-	go.opentelemetry.io/collector/semconv v0.121.0
+	go.opentelemetry.io/collector/semconv v0.124.0
 	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.60.0
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.60.0
 	go.opentelemetry.io/otel v1.35.0
@@ -291,12 +301,16 @@ require (
 
 require (
 	github.com/BurntSushi/toml v1.5.0
+	github.com/Kong/kong v0.0.0-20250527125949-77aa98b7a876
+	github.com/argoproj/argo-cd/v3 v3.0.4
 	github.com/go-sql-driver/mysql v1.9.1
-	github.com/mattn/go-sqlite3 v1.14.26
-	github.com/prometheus/prometheus v2.5.0+incompatible
+	github.com/mattn/go-sqlite3 v2.0.3+incompatible
+	github.com/traefik/traefik/v3 v3.4.1
+	//github.com/prometheus/prometheus v2.5.0+incompatible
 	github.com/urfave/cli/v3 v3.3.3
 	gopkg.in/urfave/cli.v1 v1.20.0
 	gvisor.dev/gvisor v0.0.0-20250510022024-e4c059533a2a
+
 )
 
 replace github.com/axiomhq/hyperloglog/000 => github.com/axiomhq/hyperloglog v0.2.5
@@ -310,7 +324,11 @@ replace (
 	github.com/abourget/teamcity => github.com/cockroachdb/teamcity v0.0.0-20180905144921-8ca25c33eb11
 
 	github.com/aquarapid/vaultlib => github.com/mch1307/vaultlib v0.6.1
+
+	github.com/armon/go-metrics => github.com/hashicorp/go-metrics v0.5.4
 	github.com/blend/go-sdk => github.com/blend/go-sdk v1.20220411.4-0.20220608163541-be8198318397
+
+	github.com/cloudnativelabs/kube-router/v2 => github.com/cloudnativelabs/kube-router/v2 v2.5.0
 
 	github.com/cockroachdb/gogoproto => github.com/gogo/protobuf v1.3.2
 	github.com/codegangsta/cli => github.com/urfave/cli v1.22.14
@@ -324,6 +342,7 @@ replace (
 	github.com/myesui/uuid => github.com/google/uuid v1.3.0
 	github.com/opensearch-project/opensearch-go/v2 => github.com/opensearch-project/opensearch-go/v2 v2.1.0
 	github.com/operator-framework/operator-lib => github.com/operator-framework/operator-lib v0.11.0
+	github.com/pingcap/tidb/pkg/parser => github.com/pingcap/tidb/pkg/parser v0.0.0-20250523074228-78e306d37819
 	github.com/polarismesh/go-restful-openapi => github.com/emicklei/go-restful-openapi/v2 v2.9.1
 	github.com/projectcalico/api => github.com/projectcalico/api v0.0.0-20230602153125-fb7148692637
 	github.com/projectcalico/calico => github.com/projectcalico/calico v2.6.12+incompatible
@@ -332,6 +351,7 @@ replace (
 	github.com/rancher/rancher/pkg/client => github.com/rancher/rancher/pkg/client v0.0.0-20221103194918-2d114cccb546
 
 	github.com/sigstore/fulcio => github.com/sigstore/fulcio v1.0.1-0.20221110094946-7cf41b0898d4
+	github.com/spegel-org/spegel => github.com/spegel-org/spegel v0.2.0
 
 	go.etcd.io/etcd => github.com/etcd-io/etcd v3.3.27+incompatible
 
@@ -352,6 +372,10 @@ replace (
 	k8s.io/controller-manager => k8s.io/kubernetes/staging/src/k8s.io/controller-manager v0.0.0-20220823173643-a866cbe2e5bb
 	k8s.io/cri-api => k8s.io/kubernetes/staging/src/k8s.io/cri-api v0.0.0-20220823173643-a866cbe2e5bb
 	k8s.io/csi-translation-lib => k8s.io/kubernetes/staging/src/k8s.io/csi-translation-lib v0.0.0-20220823173643-a866cbe2e5bb
+	k8s.io/dynamic-resource-allocation => k8s.io/dynamic-resource-allocation v0.33.1
+	k8s.io/endpointslice => k8s.io/endpointslice v0.33.1
+	k8s.io/externaljwt => k8s.io/externaljwt v0.33.1
+	k8s.io/kms => k8s.io/kms v0.33.1
 	k8s.io/kube-aggregator => k8s.io/kubernetes/staging/src/k8s.io/kube-aggregator v0.0.0-20220823173643-a866cbe2e5bb
 	k8s.io/kube-controller-manager => k8s.io/kubernetes/staging/src/k8s.io/kube-controller-manager v0.0.0-20220823173643-a866cbe2e5bb
 	k8s.io/kube-proxy => k8s.io/kubernetes/staging/src/k8s.io/kube-proxy v0.0.0-20220823173643-a866cbe2e5bb
@@ -367,6 +391,7 @@ replace (
 	kubesphere.io/api => kubesphere.io/api v0.0.0-20221031095409-fdfb4c74e5e9
 	kubesphere.io/client-go => kubesphere.io/client-go v0.3.1
 	kubesphere.io/utils => kubesphere.io/utils v0.0.0-20250208102917-f56781425fe8
-
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client => sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.30
+	sigs.k8s.io/cri-tools => sigs.k8s.io/cri-tools v1.33.0
+
 )
