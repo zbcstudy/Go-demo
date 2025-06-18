@@ -32,8 +32,9 @@ require (
 	github.com/containers/podman/v5 v5.4.2
 	github.com/containers/skopeo v1.12.0
 	github.com/coocood/freecache v1.2.4
-	github.com/cri-o/cri-o v1.27.4
+	github.com/cri-o/cri-o v1.32.5
 	github.com/dgraph-io/badger/v3 v3.2103.5
+	github.com/distribution/distribution/v3 v3.0.0
 	github.com/docker-slim/docker-slim v0.0.0-20221114191106-a4aca0c03e46
 	github.com/docker/buildx v0.23.0
 	github.com/docker/cli v28.1.1+incompatible
@@ -55,8 +56,6 @@ require (
 	github.com/go-kit/kit v0.13.1-0.20231222231659-844c3d2de01a
 	github.com/go-nunu/nunu v1.0.4
 	github.com/go-redsync/redsync v1.4.2
-	github.com/gobuffalo/buffalo v1.0.1
-	github.com/gobuffalo/packr/v2 v2.8.3
 	github.com/gofiber/fiber/v2 v2.52.5
 	github.com/goharbor/harbor/src v0.0.0-20240403034559-9778176ff1ee
 	github.com/gohugoio/hugo v0.145.0
@@ -143,8 +142,8 @@ require (
 	github.com/volatiletech/sqlboiler/v4 v4.13.0
 	github.com/xuri/excelize/v2 v2.8.1
 	go-micro.dev/v5 v5.3.0
-	go.mongodb.org/mongo-driver v1.17.2
-	golang.org/x/oauth2 v0.28.0 // indirect
+	go.mongodb.org/mongo-driver v1.17.3
+	golang.org/x/oauth2 v0.30.0 // indirect
 	golang.org/x/term v0.32.0 // indirect
 	golang.org/x/text v0.25.0
 	helm.sh/helm/v3 v3.17.3
@@ -171,7 +170,7 @@ require (
 	github.com/containers/ocicrypt v1.2.1
 	github.com/containers/storage v1.58.0
 	github.com/coreos/go-systemd/v22 v22.5.1-0.20231103132048-7d375ecc2b09
-	github.com/cpuguy83/go-md2man/v2 v2.0.6
+	github.com/cpuguy83/go-md2man/v2 v2.0.7
 	github.com/cyphar/filepath-securejoin v0.4.1
 	github.com/daichi-m/go18ds v1.12.1
 	github.com/dchest/captcha v1.0.0
@@ -303,14 +302,49 @@ require (
 	github.com/BurntSushi/toml v1.5.0
 	github.com/Kong/kong v0.0.0-20250527125949-77aa98b7a876
 	github.com/argoproj/argo-cd/v3 v3.0.4
+	github.com/cheggaaa/pb/v3 v3.1.7
+	github.com/concourse/concourse v4.2.3+incompatible
 	github.com/go-sql-driver/mysql v1.9.1
+	github.com/gocolly/colly/v2 v2.2.0
+	github.com/google/go-containerregistry v0.20.5
+	github.com/google/ko v0.18.0
+	github.com/linuxkit/linuxkit v1.6.0
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible
+	github.com/sigstore/cosign/v2 v2.5.0
+	github.com/slimtoolkit/slim v0.0.0-20250520142417-a35f6b52ce53
 	github.com/traefik/traefik/v3 v3.4.1
 	//github.com/prometheus/prometheus v2.5.0+incompatible
 	github.com/urfave/cli/v3 v3.3.3
 	gopkg.in/urfave/cli.v1 v1.20.0
 	gvisor.dev/gvisor v0.0.0-20250510022024-e4c059533a2a
+)
+require (
+	github.com/gobuffalo/buffalo v1.1.2
+	github.com/gobuffalo/packr/v2 v2.8.3
+	github.com/gobuffalo/helpers v0.6.10
+	github.com/gobuffalo/httptest v1.5.2
+	github.com/gobuffalo/logger v1.0.7
+	github.com/gobuffalo/meta v0.3.3
+	github.com/gobuffalo/nulls v0.4.2
+	github.com/gobuffalo/plush/v5 v5.0.5
+	github.com/gobuffalo/pop/v6 v6.1.1
+	github.com/gobuffalo/refresh v1.13.3
+	github.com/gobuffalo/tags/v3 v3.1.4
+)
 
+require (
+	github.com/kubeedge/kubeedge        latest
+    github.com/fatedier/frp             latest
+    github.com/harness/gitness/v3       latest
+    github.com/dagger/dagger            latest
+    github.com/abiosoft/colima          latest
+    github.com/gogf/gf/v2               latest
+    github.com/gogf/examples            latest
+    github.com/milvus-io/milvus/v2      latest
+    github.com/mudler/LocalAI/v2        latest
+    github.com/canonical/lxd/v6         latest
+    github.com/wanzo-mini/mini-rpc      latest
+    github.com/wanzo-mini/mini-balancer latest
 )
 
 replace github.com/axiomhq/hyperloglog/000 => github.com/axiomhq/hyperloglog v0.2.5
@@ -395,3 +429,4 @@ replace (
 	sigs.k8s.io/cri-tools => sigs.k8s.io/cri-tools v1.33.0
 
 )
+
