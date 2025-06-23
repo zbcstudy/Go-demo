@@ -1,6 +1,6 @@
 module a_pkg
 
-go 1.24.3
+go 1.24.4
 
 require (
 	bazil.org/fuse v0.0.0-20230120002735-62a210ff1fd5
@@ -21,7 +21,7 @@ require (
 	github.com/codegangsta/cli v1.22.16
 	github.com/compose-spec/compose-go/v2 v2.6.2
 	github.com/containerd/cgroups/v3 v3.0.5
-	github.com/containerd/containerd v1.7.24
+	github.com/containerd/containerd v1.7.27
 	github.com/containerd/containerd/v2 v2.1.0
 	github.com/containerd/nerdctl v1.7.5
 	github.com/containernetworking/cni v1.3.0
@@ -37,9 +37,9 @@ require (
 	github.com/distribution/distribution/v3 v3.0.0
 	github.com/docker-slim/docker-slim v0.0.0-20221114191106-a4aca0c03e46
 	github.com/docker/buildx v0.23.0
-	github.com/docker/cli v28.1.1+incompatible
+	github.com/docker/cli v28.2.2+incompatible
 	github.com/docker/compose/v2 v2.36.0
-	github.com/docker/docker v28.1.1+incompatible
+	github.com/docker/docker v28.2.2+incompatible
 	github.com/docker/machine v0.16.2
 	github.com/docker/swarm v1.2.9
 	// github.com/OpenIMSDK/Open-IM-Server/v2 a4fe45d
@@ -143,9 +143,9 @@ require (
 	github.com/xuri/excelize/v2 v2.8.1
 	go-micro.dev/v5 v5.3.0
 	go.mongodb.org/mongo-driver v1.17.3
-	golang.org/x/oauth2 v0.30.0 // indirect
-	golang.org/x/term v0.32.0 // indirect
-	golang.org/x/text v0.25.0
+	golang.org/x/oauth2 v0.30.0
+	golang.org/x/term v0.32.0
+	golang.org/x/text v0.26.0
 	helm.sh/helm/v3 v3.17.3
 	k8s.io/minikube v1.28.1-0.20221202001624-44ea7f43205e
 	k8s.io/mount-utils v0.32.4
@@ -175,6 +175,8 @@ require (
 	github.com/daichi-m/go18ds v1.12.1
 	github.com/dchest/captcha v1.0.0
 	github.com/dgraph-io/ristretto v0.1.1 // indirect
+	//github.com/harness/gitness/v2 v2.26.0
+	github.com/drone/drone v1.10.1
 	github.com/emicklei/go-restful/v3 v3.12.2
 	github.com/emirpasic/gods v1.18.1
 	github.com/go-jet/jet/v2 v2.13.0
@@ -211,23 +213,21 @@ require (
 	github.com/spf13/afero v1.14.0
 	github.com/vbauerster/mpb/v5 v5.4.0 // indirect
 	github.com/vektra/mockery/v2 v2.53.3
-	golang.org/x/crypto v0.38.0
-	golang.org/x/exp v0.0.0-20250408133849-7e4ce0ab07d0
-	golang.org/x/net v0.40.0
-	golang.org/x/sync v0.14.0
+	golang.org/x/crypto v0.39.0
+	golang.org/x/exp v0.0.0-20250506013437-ce4c2cf36ca6
+	golang.org/x/net v0.41.0
+	golang.org/x/sync v0.15.0
 	golang.org/x/sys v0.33.0
-	golang.org/x/tools v0.33.0
-	google.golang.org/genproto v0.0.0-20250324211829-b45e905df463
-	//github.com/harness/gitness/v2 v2.26.0
-	//github.com/drone/drone/v2 latest
+	golang.org/x/tools v0.34.0
+	google.golang.org/genproto v0.0.0-20250505200425-f936aa4a68b2
 	modernc.org/cc/v4 v4.26.1
 	modernc.org/ccgo/v4 v4.28.0
 	modernc.org/ccorpus2 v1.5.2
-	modernc.org/fileutil v1.3.1
+	modernc.org/fileutil v1.3.3
 	modernc.org/gc/v2 v2.6.5
 	modernc.org/golex v1.1.0
-	modernc.org/libc v1.65.3
-	modernc.org/memory v1.10.0
+	modernc.org/libc v1.65.10
+	modernc.org/memory v1.11.0
 	modernc.org/opt v0.1.4
 	modernc.org/sortutil v1.2.1
 	moul.io/http2curl v1.0.0 // indirect
@@ -252,7 +252,7 @@ require (
 	github.com/hashicorp/net-rpc-msgpackrpc/v2 v2.0.1
 	github.com/hashicorp/nomad/api v0.0.0-20250425125325-3e688cf9282f
 	github.com/hashicorp/raft-boltdb/v2 v2.3.1
-	github.com/hashicorp/vault/api v1.16.0
+	github.com/hashicorp/vault/api v1.20.0
 	github.com/k3s-io/kine v0.13.14
 	go.etcd.io/bbolt v1.4.0
 	go.etcd.io/etcd/v3 v3.6.0-alpha.0
@@ -284,16 +284,16 @@ require (
 	go.opentelemetry.io/collector/semconv v0.124.0
 	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.60.0
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.60.0
-	go.opentelemetry.io/otel v1.35.0
-	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.35.0
-	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.35.0
+	go.opentelemetry.io/otel v1.36.0
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.36.0
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.36.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.35.0
-	go.opentelemetry.io/otel/metric v1.35.0
-	go.opentelemetry.io/otel/sdk v1.35.0
-	go.opentelemetry.io/otel/trace v1.35.0
-	google.golang.org/api v0.228.0
-	google.golang.org/genproto/googleapis/api v0.0.0-20250414145226-207652e42e2e
-	google.golang.org/grpc v1.72.0
+	go.opentelemetry.io/otel/metric v1.36.0
+	go.opentelemetry.io/otel/sdk v1.36.0
+	go.opentelemetry.io/otel/trace v1.36.0
+	google.golang.org/api v0.232.0
+	google.golang.org/genproto/googleapis/api v0.0.0-20250519155744-55703ea1f237
+	google.golang.org/grpc v1.73.0
 	google.golang.org/grpc/examples v0.0.0-20250513095349-b89909b7bd0d
 	google.golang.org/protobuf v1.36.6
 )
@@ -304,7 +304,7 @@ require (
 	github.com/argoproj/argo-cd/v3 v3.0.4
 	github.com/cheggaaa/pb/v3 v3.1.7
 	github.com/concourse/concourse v4.2.3+incompatible
-	github.com/go-sql-driver/mysql v1.9.1
+	github.com/go-sql-driver/mysql v1.9.2
 	github.com/gocolly/colly/v2 v2.2.0
 	github.com/google/go-containerregistry v0.20.5
 	github.com/google/ko v0.18.0
@@ -318,14 +318,15 @@ require (
 	gopkg.in/urfave/cli.v1 v1.20.0
 	gvisor.dev/gvisor v0.0.0-20250510022024-e4c059533a2a
 )
+
 require (
 	github.com/gobuffalo/buffalo v1.1.2
-	github.com/gobuffalo/packr/v2 v2.8.3
 	github.com/gobuffalo/helpers v0.6.10
 	github.com/gobuffalo/httptest v1.5.2
 	github.com/gobuffalo/logger v1.0.7
 	github.com/gobuffalo/meta v0.3.3
 	github.com/gobuffalo/nulls v0.4.2
+	github.com/gobuffalo/packr/v2 v2.8.3
 	github.com/gobuffalo/plush/v5 v5.0.5
 	github.com/gobuffalo/pop/v6 v6.1.1
 	github.com/gobuffalo/refresh v1.13.3
@@ -333,18 +334,19 @@ require (
 )
 
 require (
-	github.com/kubeedge/kubeedge        latest
-    github.com/fatedier/frp             latest
-    github.com/harness/gitness/v3       latest
-    github.com/dagger/dagger            latest
-    github.com/abiosoft/colima          latest
-    github.com/gogf/gf/v2               latest
-    github.com/gogf/examples            latest
-    github.com/milvus-io/milvus/v2      latest
-    github.com/mudler/LocalAI/v2        latest
-    github.com/canonical/lxd/v6         latest
-    github.com/wanzo-mini/mini-rpc      latest
-    github.com/wanzo-mini/mini-balancer latest
+	github.com/abiosoft/colima v0.8.1
+	github.com/canonical/lxd v0.0.0-20250616204942-df0e0eb62955
+	github.com/dagger/dagger v0.18.10
+	github.com/fatedier/frp v0.62.1
+	github.com/go-skynet/LocalAI v1.40.0
+	github.com/gogf/examples v2.8.3+incompatible
+	github.com/gogf/gf/v2 v2.9.0
+	github.com/kubeedge/kubeedge v1.21.0
+	github.com/milvus-io/milvus v1.1.1
+	github.com/pion/webrtc/v4 v4.1.2
+	github.com/zehuamama/balancer v0.2.1
+	github.com/zehuamama/tinyrpc v0.3.1
+	gopkg.in/h2non/gock.v1 v1.1.2
 )
 
 replace github.com/axiomhq/hyperloglog/000 => github.com/axiomhq/hyperloglog v0.2.5
@@ -366,8 +368,14 @@ replace (
 
 	github.com/cockroachdb/gogoproto => github.com/gogo/protobuf v1.3.2
 	github.com/codegangsta/cli => github.com/urfave/cli v1.22.14
+	github.com/dagger/dagger/engine/distconsts => github.com/dagger/dagger/engine/distconsts v0.18.10
 
 	github.com/docker/docker => github.com/docker/docker v27.3.1+incompatible
+
+	github.com/h2non/gock => gopkg.in/h2non/gock.v1 v1.1.2
+
+	github.com/kubeedge/api => github.com/kubeedge/api v1.20.0
+	github.com/kubeedge/beehive => github.com/kubeedge/beehive v1.20.0
 	github.com/kubernetes-incubator/external-storage => github.com/kubernetes-incubator/external-storage v5.5.0+incompatible
 	github.com/kubernetes-sigs/cri-tools => github.com/kubernetes-sigs/cri-tools v1.25.0
 
@@ -427,6 +435,4 @@ replace (
 	kubesphere.io/utils => kubesphere.io/utils v0.0.0-20250208102917-f56781425fe8
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client => sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.30
 	sigs.k8s.io/cri-tools => sigs.k8s.io/cri-tools v1.33.0
-
 )
-
