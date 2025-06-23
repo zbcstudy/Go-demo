@@ -303,7 +303,7 @@ require (
 	github.com/Kong/kong v0.0.0-20250527125949-77aa98b7a876
 	github.com/argoproj/argo-cd/v3 v3.0.4
 	github.com/cheggaaa/pb/v3 v3.1.7
-	github.com/concourse/concourse v4.2.3+incompatible
+	github.com/concourse/concourse v1.6.1-0.20250620162546-4e1aa2bc2ac0
 	github.com/go-sql-driver/mysql v1.9.2
 	github.com/gocolly/colly/v2 v2.2.0
 	github.com/google/go-containerregistry v0.20.5
@@ -347,6 +347,15 @@ require (
 	github.com/zehuamama/balancer v0.2.1
 	github.com/zehuamama/tinyrpc v0.3.1
 	gopkg.in/h2non/gock.v1 v1.1.2
+	//github.com/wagoodman/dive latest
+	//github.com/bluenviron/mediamtx v1.12.3
+	//github.com/fission/fission v1.21.0
+	//github.com/ollama/ollama v0.9.2
+	//github.com/cloudwego/eino v0.3.44
+	//github.com/openai/openai-go v1.6.0
+	//github.com/mark3labs/mcp-go v0.32.0
+	//github.com/livekit/livekit v1.9.0
+	//github.com/ethereum/go-ethereum v1.15.11
 )
 
 replace github.com/axiomhq/hyperloglog/000 => github.com/axiomhq/hyperloglog v0.2.5
